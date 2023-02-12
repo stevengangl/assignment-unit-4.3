@@ -20,3 +20,9 @@ function listItems() {
     }
 }
 listItems();
+
+function empty(){
+    basket = [];
+    console.log("this is resetting the basket array", basket);
+}
+empty()
